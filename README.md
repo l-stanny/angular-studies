@@ -1,0 +1,1 @@
+When the form fields are filled out by the user and the "Generate" button is clicked, the username and a random integer between 1 and 9 are rendered in the DOM. The Angular ngModel directive is used to autofill the editable form fields.
