@@ -1,0 +1,19 @@
+
+i.icon {
+    font-family: Arial, Helvetica, sans-serif!important;
+    }
+i.icon.arrow.down:before, i.icon.arrow.up:before {
+    font-family: 'Icons';
+    margin-right: .15em;
+    }
+.ui.list>.item:last-child {
+    margin-left: 3.3em;
+    }
+ul.ui.list {
+    margin-left: 0;
+}
+
+/* set an underline on anything classed with .four only if this component's parent component wraps this child component in a class of .greenborder */
+/* :host-context(.greenborder) .four {
+    text-decoration: underline;
+} */
