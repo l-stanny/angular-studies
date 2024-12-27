@@ -1,0 +1,47 @@
+input {
+    border: 1px dotted black;
+    margin-bottom:0.5em;
+    margin-top:0.5em;
+    padding:0.4em;
+    width:100%;
+    color:#888
+}
+span#output {
+    border: 1px solid #d4d4d4;
+    background: #f0e6c9;
+    padding:1em;
+    margin-top:1.5em;
+    display:inline-block
+}
+fieldset {
+  margin-top:1em;
+}
+p {
+  line-height: 1.5;
+margin-bottom:0
+}
+:host {
+  width:auto;
+  display: block;
+  margin: 0 auto;
+  max-width:500px;
+}
+button {
+    background-color: #3ab4c9;
+    margin: 0.75rem 6px 0.75rem 6px;
+    margin: 0 auto;
+    display:block;
+  }
+  button:hover,
+  button:active,
+  button:hover,
+  .button:hover,
+  .button:active,
+  .button:hover {
+    background: #40d9f3;
+    color: #5f7b7c;
+  }
+  button.current {
+    outline: 3px solid #fff;
+    outline-offset: -4px;
+  }

@@ -1,0 +1,17 @@
+<div class="">
+    <p>Enter first and last names in the fields below to render your input in the DOM along with a randomly generated numeral.</p>
+    <form #myForm="ngForm" (ngSubmit)="onSubmit(myForm.value)">
+        <fieldset>
+            <label for="firstname">Enter a first name.</label>
+            <input type="text" [(ngModel)]="firstname" value="firstname" id="firstname" name="firstname">
+        </fieldset>
+        <fieldset>
+            <label for="lastname">Enter a last name.</label>
+            <input type="text" [(ngModel)]="lastname" value="lastname" id="lastname" name="lastname">
+        </fieldset>
+        <fieldset>
+            <button type="submit">Generate</button> 
+        </fieldset>
+        <span id="output" *ngIf="myForm.submitted && myForm.valid">You entered&nbsp;<b>{{firstname}}</b>&nbsp;<b>{{lastname}}</b> and the random generated numeral is <b>{{gotit}}</b></span>
+      </form>
+</div>
