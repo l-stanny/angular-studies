@@ -13,3 +13,9 @@ When the form fields are filled out by the user and the "Generate" button is cli
 
 ## Reddit-like Study
 Allows the user to post an article (with a title and a URL) and then vote on the posts.
+
+It has 2 components:
+
+1 to hold the form to submit an article and the default 3 articles bind the submit value in the view to entered text in the inputs using the hash, resolve, syntax then get the data into the component as Objects of the type HTMLInputElement.
+
+1 to hold the individual, new, submitted articles using @Hostbinding to bind a class to the host app. It uses a model to isolate the data structures. The articles are automatically and dynamically sorted by vote values. Voting uses increment and decrement.
