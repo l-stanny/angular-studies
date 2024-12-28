@@ -1,6 +1,6 @@
 # Angular Studies
 
-These projects were generated in an [Nx](https://nx.dev) monorepo and are in this repository *in part*.
+These self-directed study projects were generated in an [Nx](https://nx.dev) monorepo and are in this repository *in part*.
 
 <p style="text-align: center;"><img src="https://raw.githubusercontent.com/nrwl/nx/master/images/nx-logo.png" width="450"></p>
 
