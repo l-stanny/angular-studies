@@ -16,6 +16,6 @@ Allows the user to post an article (with a title and a URL) and vote on the post
 
 It has 2 components:
 
-1 to hold the form to submit an article and the default 3 articles. It binds the submit value in the view to entered text in the inputs using the hash, resolve, syntax then gets the data into the component as objects of the type HTMLInputElement.
+1 to hold the form that submits an article. It binds the submit value in the view to entered text in the inputs using the hash, resolve, syntax then gets the data into the component as objects of the type HTMLInputElement.
 
 1 to hold the default and newly submitted articles using @Hostbinding to bind a class to the host app. It uses a model to isolate the data structures.
