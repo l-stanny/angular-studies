@@ -9,7 +9,7 @@ These self-directed study projects were generated in an [Nx](https://nx.dev) mon
 [Nx Documentation](https://nx.dev/angular)
 
 ## Random Numbers Study
-Demonstrates Javascript, Typescript, Angular interpolation - one-way data binding -, and the Angular ngModel directive's two-way data binding technique which is used to autofill the editable form fields. When the form fields are filled out by the user and the "Generate" button is clicked, the username and a random integer between 1 and 9 are rendered in the DOM.
+Video (no audio) demonstrating Javascript, Typescript, Angular interpolation - one-way data binding -, and the Angular ngModel directive's two-way data binding technique. When the form fields are filled out by the user and the "Generate" button is clicked, the username and a random integer between 1 and 9 are rendered in the DOM. The Angular ngModel directive is used to autofill the editable form fields.
 
 
 https://github.com/user-attachments/assets/0cd18113-4aae-44a6-9f5f-4c47b5f7073f
