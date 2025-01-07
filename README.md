@@ -16,7 +16,7 @@ https://github.com/user-attachments/assets/0cd18113-4aae-44a6-9f5f-4c47b5f7073f
 
 
 ## Reddit-like Study
-Allows the user to post an article (with a title and a URL) and vote on the posts. Voting uses increment and decrement to dynamically sort articles by number of votes.
+Allows the user to post an article (with a title and a URL) and vote on the posts. Voting uses Javascript subtraction and addition assignment operators and a sort function to sort articles by number of votes.
 
 It has 2 components:
 
