@@ -7,8 +7,8 @@ import { Article } from './article.model';
   styleUrls: ['./article.component.scss']
 })
 export class ArticleComponent implements OnInit {
-  @HostBinding('attr.class') cssClass='row';
-  @HostBinding('attr.style') cssStyle='width:67%!important; margin:0 auto;';
+  @HostBinding('attr.class') ngClass='row';
+  @HostBinding('attr.style') ngStyle='width:67%!important; margin:0 auto;';
   @Input() article!: Article;
 
   constructor() {}
