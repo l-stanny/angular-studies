@@ -22,7 +22,7 @@ It has 2 components:
 
 1 to hold the form that submits an article. It binds the submit value in the view to entered text in the inputs using the hash, resolve, syntax then gets the data into the component as objects of the type HTMLInputElement.
 
-1 to hold the default and newly submitted articles using @Hostbinding to bind a class to the host app. It uses a model to isolate the data structures.
+1 to hold the default and newly submitted articles which uses @Hostbinding to bind CSS classes to the host app. It uses a model to isolate the data structures.
 
 
 https://github.com/user-attachments/assets/16dc4bf9-0e4f-4fbc-90e7-b07ab27da523
