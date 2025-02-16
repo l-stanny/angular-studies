@@ -3,15 +3,27 @@
 
   <div class="field">
     <label for="title">Title</label>
-    <input name="title" id="title" #newtitle><!--The # (hash) tells Angular to assign (bind) the input tag to a local variable and is called a resolve and is an object, specifically, an HTMLInputElement (see the function, addArticle, in the .ts file).-->
+    <input
+      name="title"
+      id="title"
+      #newtitle
+    /><!--The # (hash) tells Angular to assign (bind) the input tag to a local variable and is called a resolve and is an object, specifically, an HTMLInputElement (see the function, addArticle, in the .ts file).-->
   </div>
   <div class="field">
     <label for="link">Link</label>
-    <input name="link" id="link" #newlink>
+    <input name="link" id="link" #newlink />
   </div>
 
-  <button (click)="addArticle(newtitle, newlink)" class="ui positive right floated button">Submit link</button>
+  <button
+    (click)="addArticle(newtitle, newlink)"
+    class="ui positive right floated button"
+  >
+    Submit link
+  </button>
 </form>
 <div class="ui grid posts greenborder">
-  <ng-book-article *ngFor="let article of sortedArticles()" [article]="article"></ng-book-article>
+  <ng-book-article
+    *ngFor="let article of sortedArticles()"
+    [article]="article"
+  ></ng-book-article>
 </div>

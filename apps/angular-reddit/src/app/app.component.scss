@@ -1,4 +1,5 @@
-:host { /* style the app-root component itself */
+:host {
+  /* style the app-root component itself */
   display: block;
   font-family: sans-serif;
   min-width: 300px;
@@ -13,8 +14,34 @@ h2 {
 }
 
 form {
-  width:70%;
-  min-width:320px;
-  position:relative;
-  margin: 0 auto!important;
+  width: 70%;
+  min-width: 320px;
+  position: relative;
+  margin: 0 auto !important;
+}
+
+form.ui.segment.form {
+  background-color: #659eb1;
+}
+
+h3.ui.header {
+  color: #ddd;
+  font-weight: 400;
+}
+
+div.field label {
+  color: #32493e;
+  font-weight: 400;
+}
+
+button.ui.positive {
+  background-color: #596a70 !important;
+  color: #ddd;
+}
+
+button.ui.positive:hover,
+button.ui.positive:focus,
+button.ui.positive:active {
+  background-color: #c6c1b5 !important;
+  color: #474c52;
 }

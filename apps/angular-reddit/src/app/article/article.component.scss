@@ -1,18 +1,31 @@
-
 i.icon {
-    font-family: Arial, Helvetica, sans-serif!important;
-    }
-i.icon.arrow.down:before, i.icon.arrow.up:before {
-    font-family: 'Icons';
-    margin-right: .15em;
-    }
-.ui.list>.item:last-child {
-    margin-left: 3.3em;
-    }
-ul.ui.list {
-    margin-left: 0;
+  font-family: Arial, Helvetica, sans-serif !important;
+  color: #596a70 !important;
 }
-
+i.icon.arrow.down:before,
+i.icon.arrow.up:before {
+  font-family: 'Icons';
+  margin-right: 0.15em;
+}
+.ui.list > .item:last-child {
+  margin-left: 3.3em;
+}
+ul.ui.list {
+  margin-left: 0;
+}
+.ui.large.header {
+  color: #5c6869;
+  font-weight: 400;
+}
+.votes {
+  background-color: #c6c1b5;
+}
+.ui.statistic .value {
+  color: #474c52;
+}
+.meta {
+  color: #858a8d;
+}
 /* set an underline on anything classed with .four only if this component's parent component wraps this child component in a class of .greenborder */
 /* :host-context(.greenborder) .four {
     text-decoration: underline;
