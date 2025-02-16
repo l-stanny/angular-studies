@@ -25,5 +25,7 @@ It has 2 components:
 1 to hold the default and newly submitted articles which uses @Hostbinding and Angular built-in style and class directives to bind a CSS class and a CSS style to the host app. It uses a model to isolate the data structures.
 
 
-https://github.com/user-attachments/assets/16dc4bf9-0e4f-4fbc-90e7-b07ab27da523
+https://github.com/user-attachments/assets/521c021d-f450-4451-9768-166f51de88ca
+
+
 
