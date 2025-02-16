@@ -18,13 +18,13 @@ export class Article {
     }
 
     domain(): string {
-        const domainAndPath: string  = this.link.split('//')[1];
+        const domainAndPath: string  = this.link;
         if (domainAndPath == null)
         {
             return this.domain();
         }
         else {
-            return domainAndPath.split('/')[0];
+            return domainAndPath;
         }
     }
 }
